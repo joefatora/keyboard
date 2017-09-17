@@ -147,8 +147,8 @@ function hs.window.centerWithFullHeight(win)
   local screen = win:screen()
   local max = screen:fullFrame()
 
-  f.x = max.x + (max.w / 5)
-  f.w = max.w * 3/5
+  f.x = max.x
+  f.w = max.w
   f.y = max.y
   f.h = max.h
   win:setFrame(f)
@@ -167,6 +167,40 @@ function hs.window.left40(win)
   f.x = max.x
   f.y = max.y
   f.w = max.w * 0.4
+  f.h = max.h
+  win:setFrame(f)
+end
+
+-- +-----------------+
+-- |           |     |
+-- | HERE      |     |
+-- |           |     |
+-- +-----------------+
+function hs.window.left66(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x
+  f.y = max.y
+  f.w = max.w * (2/3)
+  f.h = max.h
+  win:setFrame(f)
+end
+
+-- +-----------------+
+-- |           |     |
+-- |           | HERE|
+-- |           |     |
+-- +-----------------+
+function hs.window.right33(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + (max.w/3)
+  f.y = max.y
+  f.w = max.w * (1/3)
   f.h = max.h
   win:setFrame(f)
 end
@@ -249,7 +283,7 @@ windowLayoutMode:bindWithAutomaticExit({}, 'space', function()
 end)
 
 windowLayoutMode:bindWithAutomaticExit({}, 'h', function()
-  hs.window.focusedWindow():left()
+  hs.window.focusedWindow():left66()
 end)
 
 windowLayoutMode:bindWithAutomaticExit({}, 'j', function()
@@ -261,7 +295,7 @@ windowLayoutMode:bindWithAutomaticExit({}, 'k', function()
 end)
 
 windowLayoutMode:bindWithAutomaticExit({}, 'l', function()
-  hs.window.focusedWindow():right()
+  hs.window.focusedWindow():right33()
 end)
 
 windowLayoutMode:bindWithAutomaticExit({'shift'}, 'h', function()

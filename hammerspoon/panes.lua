@@ -28,6 +28,12 @@ local itermHotkeyMappings = {
     from = {{'ctrl'}, 'l'},
     to   = {{'cmd', 'alt'}, 'right'}
   },
+
+  -- Make focused pane full-screen/return to split view
+  {
+    from = {{'ctrl'}, 'f'},
+    to = {{'cmd', 'shift'}, 'return'},
+  },
 }
 
 local terminalWindowFilter = hs.window.filter.new('iTerm2')

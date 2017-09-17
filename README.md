@@ -75,10 +75,10 @@ Quickly arrange and resize windows in common configurations, using keyboard shor
 
 Use <kbd>control</kbd> + <kbd>s</kbd> to turn on Window Layout Mode. Then, use any shortcut below to make windows do your bidding. For example, to send the window left, hit <kbd>control</kbd> + <kbd>s</kbd>, and then hit <kbd>h</kbd>.
 
-- Use <kbd>h</kbd> to send window left (left half of screen)
+- Use <kbd>h</kbd> to send window left (left two thirds of screen)
 - Use <kbd>j</kbd> to send window down (bottom half of screen)
 - Use <kbd>k</kbd> to send window up (top half of screen)
-- Use <kbd>l</kbd> to send window right (right half of screen)
+- Use <kbd>l</kbd> to send window right (right third of screen)
 - Use <kbd>shift</kbd> + <kbd>h</kbd> to send window to left 40% of screen
 - Use <kbd>shift</kbd> + <kbd>l</kbd> to send window to right 60% of screen
 - Use <kbd>i</kbd> to send window to upper left quarter of screen
@@ -135,20 +135,21 @@ Hyper Mode ships with the default keybindings below, but you'll likely want to p
 #### Default app keybindings
 
 - <kbd>hyper</kbd> + <kbd>a</kbd> to open iTunes ("A" for "Apple Music")
-- <kbd>hyper</kbd> + <kbd>b</kbd> to open Google Chrome ("B" for "Browser")
-- <kbd>hyper</kbd> + <kbd>c</kbd> to open Slack ("C for "Chat")
-- <kbd>hyper</kbd> + <kbd>d</kbd> to open [Remember The Milk](https://www.rememberthemilk.com/) ("D" for "Do!" ... or "Done!")
-- <kbd>hyper</kbd> + <kbd>e</kbd> to open [Atom](https://atom.io) ("E" for "Editor")
+- <kbd>hyper</kbd> + <kbd>b</kbd> to open Vivaldi ("B" for "Browser")
+- <kbd>hyper</kbd> + <kbd>c</kbd> to open Calendar ("C for "Calendar")
 - <kbd>hyper</kbd> + <kbd>f</kbd> to open Finder ("F" for "Finder")
-- <kbd>hyper</kbd> + <kbd>g</kbd> to open [Mailplane](http://mailplaneapp.com/) ("G" for "Gmail")
-- <kbd>hyper</kbd> + <kbd>s</kbd> to open [Slack](https://slack.com/downloads/osx) ("S" for "Slack")
+- <kbd>hyper</kbd> + <kbd>m</kbd> to open Messages ("M" for "Messages")
+- <kbd>hyper</kbd> + <kbd>n</kbd> to open Notes ("N" for "Notes")
+- <kbd>hyper</kbd> + <kbd>s</kbd> to open [Sublime](https://www.sublimetext.com/) ("S" for "Sublime")
 - <kbd>hyper</kbd> + <kbd>t</kbd> to open [iTerm2](https://www.iterm2.com/) ("T" for "Terminal")
+- <kbd>hyper</kbd> + <kbd>v</kbd> to open [Visual Studio Code](https://code.visualstudio.com/) ("V" for "VS Code")
 
 ### Miscellaneous goodness
 
 - Use <kbd>control</kbd> + <kbd>-</kbd> (dash) to split iTerm2 panes horizontally
 - Use <kbd>control</kbd> + <kbd>|</kbd> (pipe) split iTerm2 panes vertically
 - Use <kbd>control</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd> to move left/down/up/right by one pane in iTerm2
+- Use <kbd>control</kbd> + <kbd>f</kbd> toggle full-pane mode for split iTerm2 panes
 - Use <kbd>control</kbd> + <kbd>u</kbd> to delete to the start of the line
 - Use <kbd>control</kbd> + <kbd>;</kbd> to delete to the end of the line
 - Use <kbd>option</kbd> + <kbd>h</kbd> / <kbd>l</kbd> to delete the previous/next word
