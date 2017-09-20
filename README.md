@@ -137,8 +137,9 @@ Hyper Mode ships with the default keybindings below, but you'll likely want to p
 #### Default app keybindings
 
 - <kbd>hyper</kbd> + <kbd>a</kbd> to open iTunes ("A" for "Apple Music")
-- <kbd>hyper</kbd> + <kbd>b</kbd> to open Vivaldi ("B" for "Browser")
-- <kbd>hyper</kbd> + <kbd>c</kbd> to open Calendar ("C for "Calendar")
+- <kbd>hyper</kbd> + <kbd>b</kbd> to open Firefox ("B" for "Browser")
+- <kbd>hyper</kbd> + <kbd>c</kbd> to open Calendar ("C" for "Calendar")
+- <kbd>hyper</kbd> + <kbd>d</kbd> to open Chrome ("D" for "Dev Browser")
 - <kbd>hyper</kbd> + <kbd>f</kbd> to open Finder ("F" for "Finder")
 - <kbd>hyper</kbd> + <kbd>m</kbd> to open Messages ("M" for "Messages")
 - <kbd>hyper</kbd> + <kbd>n</kbd> to open Notes ("N" for "Notes")
