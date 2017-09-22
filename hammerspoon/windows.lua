@@ -111,6 +111,24 @@ local function moveWindowOneSpace(win, direction)
   )
 end
 
+
+-- +-----------------+
+-- |        |        |
+-- |  HERE  |        |
+-- |        |        |
+-- +-----------------+
+function hs.window.fullWindow(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x
+  f.y = max.y
+  f.w = max.w + 5
+  f.h = max.h
+  win:setFrame(f)
+end
+
 -- +-----------------+
 -- |        |        |
 -- |  HERE  |        |
@@ -259,7 +277,7 @@ function hs.window.centerWithFullHeight(win)
   local max = screen:fullFrame()
 
   f.x = max.x
-  f.w = max.w
+  f.w = max.w + 5
   f.y = max.y
   f.h = max.h
   win:setFrame(f)
